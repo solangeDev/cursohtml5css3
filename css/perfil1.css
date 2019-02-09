@@ -1,0 +1,48 @@
+body{
+    background-color: #fd79a8;
+}
+
+#seccprin{
+    background-color: #dfe6e9;
+    width: 960px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+#secctitle{
+    background-color: #ffffff;
+    padding: 5%;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.img-redonda{
+    border-radius: 20% 35% 25% 50%; /*50%*/
+}
+
+.padre{
+    display: table;
+}
+
+.hijo{
+    display: table-cell;
+}
+
+.parrafo{
+    padding: 20px;
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    font-style: italic; /*cursiva*/
+    color:#e84393;
+}
+
+#text-footer{
+    text-align: center;
+    color:#2d3436;
+    font-size: 25px;
+    font-weight: bold; /*negrita texto*/
+}
