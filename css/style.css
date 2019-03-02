@@ -10,6 +10,22 @@ html {
   font-size: 85%;
 }
 
+.parallax{
+  background-image: url("../images/header.jpg");
+  height: 600px;
+  /* proxima clase */
+  /*background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  border-bottom-left-radius: 30%;*/
+}
+
+.titulo-parallax{
+  font-size: 4rem;
+  text-align: center;
+  line-height: 500px;
+}
+
 .container {
   padding: 0 1.5rem;
   display: flex;
