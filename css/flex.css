@@ -1,0 +1,74 @@
+/*
+
+rem medida relativa al font-size de la viewport defualt 1 rem son 16px
+
+flex-grow: les dices a los hijos como deben comportarse al aumentar el ancho del padre, de forma proporcional. El numero 2 va  a crecer el doble de rapido que el numero 1
+
+flex-shrink: les dices a los hijos como deben comportarse al disminuir el ancho del padre, de forma proporcional. El numero 2 va  a disminuir el doble de rapido que el numero 1
+
+flex-basis: el tamano en base a la direccion del flex del padre, antes de el espacio disponible aumente o disminuya, (efecto responsivo)
+
+si la direccion del padre esta en fila va a crecer a lo alto, y si la dirección del padre esta en columna va a crecer a lo ancho
+
+el align-self sirve para sobrescribr una alineacion del padre hecha con align-items pero con un nhijo en específico
+*/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 85%;
+}
+
+.container {
+  padding: 0 1.5rem;
+}
+
+  .padre-caja {
+    display: flex;
+    /*justify-content: space-evenly;*/
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /* flex-direction: column-reverse; */
+  }
+  
+  .hijo.caja {
+    border: 1px solid red;
+    background-color: lightblue;
+    width: 20rem;
+    height: 40px;
+    margin: 10px;
+    flex-basis: auto;
+    
+  }
+
+  /*#order{
+    order: 1;
+  }
+
+  #order2{
+    order:2;
+  }
+
+  #order3{
+    order: 3;
+  }*/
+
+  .flex-gro1{
+    flex-grow: 1;
+    flex-shrink: 2;
+  }
+
+  .flex-gro2{
+    flex-grow: 2;
+    flex-shrink: 1;
+  }
+
+
+

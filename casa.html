@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa</title>
+    <link rel="stylesheet" href="css/casa.css">
+</head>
+<body>
+    <div class="lienzo">
+        <div class="position base">
+            <!-- (.position.ventana#v$)*2 -->
+            <div class="position ventana" id="v1"></div>
+            <div class="position ventana" id="v2"></div>
+            <!-- .position.puerta>.position.cerradura -->
+            <div class="position puerta">
+                <div class="position cerradura"></div>
+            </div>
+        </div>
+        <!-- .position.techo+.position.chimenea -->
+        <div class="position techo"></div>
+        <div class="position chimenea"></div>
+    </div>
+</body>
+</html>

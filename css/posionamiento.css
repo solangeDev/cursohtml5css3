@@ -1,0 +1,49 @@
+.caja{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight:bold;
+    background-color: blue;
+    border: 2px dotted  red;
+    line-height: 180px;
+    font-size: 2rem;   
+    margin-bottom: 20px;
+}
+
+/* #estatico{
+    position: static;
+    left: 200px;
+    top:200px;
+} */
+
+/* #absolute{
+    position: absolute;
+    left: 200px;
+    top:200px;
+} */
+
+/*#fixed{
+    position: fixed;
+    left: 200px;
+    top:200px;
+} */
+
+.float{
+    float: right;
+    margin: 10px;
+}
+
+#padre-float:hover{
+    border: 3px solid yellow;
+}
+
+/* .clear{
+    clear: both;
+} */
+
+#padre-float::after, #padre-float::before{
+    content: '';
+    clear: both;
+    display: block;
+}

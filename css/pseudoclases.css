@@ -1,0 +1,40 @@
+html{
+    font-size: 32px;
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight:bold;
+    background-color: blue;
+    border: 2px dotted  red;
+    line-height: 180px;
+    font-size: 1rem;   
+}
+
+.caja:hover{
+    background-color: red;
+}
+
+.caja:active{
+    background-color: green;
+}
+
+input[pepe="grillo"]:checked {
+    box-shadow: 0 0 0 3px hotpink;
+}
+
+.link:link{
+    color:green;
+}
+
+.link:visited{
+    color: red;
+}
+
+.nth span:first-child{
+/* .nth span:nth-child(2n+1){ */
+    color:red;
+}

@@ -1,0 +1,86 @@
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 85%;
+}
+
+.container {
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-around;
+}
+
+.padre {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom:20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  padding: 1rem;
+}
+
+.hijo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis:auto;
+}
+
+.hijo img {
+  max-width: 16rem;
+  padding: 1rem;
+}
+
+.hijo-text{
+  height: 200rem;
+}
+
+@media screen and (min-width:150px) and (max-width:700px){
+  .container{
+    height: 250vh;
+  }
+  
+  .padre{
+    flex-direction: column;
+  }  
+  .hijo{
+    flex-wrap: wrap;
+    flex-direction: row;
+
+  }
+
+  .hijo-text{
+    margin: 100px 0px
+  }
+
+  .hijo-img{
+    margin: 100px 0px
+  }
+
+  .hijo-text-order{
+    order: 2;
+  }
+
+  .hijo-text-order2{
+    order: 1;
+    margin-top: 10rem;
+  }
+
+
+
+}

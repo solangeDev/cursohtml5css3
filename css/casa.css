@@ -1,0 +1,70 @@
+.lienzo{
+    border:3px dotted black;
+    width:600px;
+    height: 500px;
+    position:relative;
+}
+
+.position{
+    position: absolute;
+}
+
+.base{
+    width: 270px;
+    height: 270px;
+    bottom: 0;
+    left: 26%;
+    background-color: #f368e0;
+}
+
+.ventana{
+    top: 15%;
+    width: 80px;
+    height: 80px;
+    border:3px solid brown;
+    background-color: #feca57;
+}
+
+#v1{
+    right: 10%;
+}
+
+#v2{
+    left: 10%;
+}
+
+.puerta{
+    bottom: 0;
+    width: 70px;
+    height: 100px;
+    background-color: #1dd1a1;
+    border:2px solid #2e86de;
+    left: 36%;
+}
+
+.cerradura{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    right: 1%;
+    top: 50%;
+}
+
+.techo{
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 230px solid #341f97;
+    left: 23%;
+}
+
+.chimenea{
+    width: 70px;
+    height: 110px;
+    background-color: #ff9ff3;
+    left: 55%;
+    top:15%;
+    z-index:-1;
+}
