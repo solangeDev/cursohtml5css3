@@ -1,0 +1,16 @@
+Proyecto Final: 
+28-Abril 12pm 
+
+- Landing min 2 secciones
+-  responsivo (utilizando el sistema de grillas de bootstrap)
+- slideshow o carrusel 
+- modal 
+- formulario
+- redireccion a redes sociales 
+- menu (responsivo)
+
+- Entregar un video presentando su proyecto 
+tipo mercadeo max 3 minutos 
+car.solange.ramirez@gmail.com o por slack 
+
+carpeta con nombre => MiNombre_CI
