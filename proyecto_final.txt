@@ -1,5 +1,5 @@
 Proyecto Final: 
-28-Abril 12pm 
+06-Mayo 12pm 
 
 - Landing min 2 secciones
 -  responsivo (utilizando el sistema de grillas de bootstrap)
